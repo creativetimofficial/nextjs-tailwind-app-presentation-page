@@ -3,26 +3,22 @@ import { Navbar, Footer } from "@/components";
 
 // sections
 import Hero from "./hero";
-import Clients from "./clients";
-import Skills from "./skills";
-import Projects from "./projects";
-import Resume from "./resume";
-import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
-import ContactForm from "./contact-form";
+import VideoIntro from "./video-intro";
+import Feature from "./feature";
+import MobileConvenience from "./mobile-convenience";
+import Testimonials from "./testimonials";
+import Faqs from "./faqs";
 
-export default function Portfolio() {
+export default function Campaign() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Clients />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
-      <ContactForm />
+      <VideoIntro />
+      <Feature />
+      <MobileConvenience />
+      <Testimonials />
+      <Faqs />
       <Footer />
     </>
   );
