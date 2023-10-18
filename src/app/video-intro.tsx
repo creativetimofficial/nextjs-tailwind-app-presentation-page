@@ -5,7 +5,6 @@ import Image from "next/image";
 import { IconButton } from "@material-tailwind/react";
 import { PlayIcon } from "@heroicons/react/24/outline";
 
-
 export function VideoIntro() {
   return (
     <div className="p-8">
@@ -14,7 +13,7 @@ export function VideoIntro() {
         <Image
           width={768}
           height={400}
-          src="/image/Background.png"
+          src="/nextjs-tailwind-app-presentation-page/image/Background.png"
           className="w-full object-cover scale-110 rounded-xl h-full"
           alt=""
         />

@@ -46,7 +46,8 @@ export function Footer() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-apple.png"                  className="-mt-0.5 mr-2 h-6 w-6"
+                  src="/nextjs-tailwind-app-presentation-page/logos/logo-apple.png"
+                  className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 />
                 App Store
@@ -58,7 +59,7 @@ export function Footer() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-google.png"
+                  src="/nextjs-tailwind-app-presentation-page/logos/logo-google.png"
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 />
