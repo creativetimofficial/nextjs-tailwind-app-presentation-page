@@ -5,7 +5,6 @@ import Image from "next/image";
 import InfoCard from "@/components/info-card";
 import { Typography, Card, CardBody } from "@material-tailwind/react";
 
-
 const OPTIONS = [
   {
     title: "100",
@@ -32,7 +31,7 @@ export function MobileConvenience() {
         <Image
           width={256}
           height={256}
-          src="/image/Iphone.png"
+          src="/image/iphone.png"
           className="col-span-1 w-1/2 mx-auto lg:w-10/12"
           alt="iphone-photo"
         />
