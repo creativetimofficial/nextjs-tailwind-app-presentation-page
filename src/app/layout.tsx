@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Material Tailwind | Portfolio Template",
+  title: "NextJS Tailwind App Presentation Page",
   description:
-    "Portfolio template built with Material Tailwind React and Next.js 13.",
+    "We are thrilled to offer you a Free App Presentation Template, a beautifully designed and user-friendly Tailwind CSS and Material Tailwind theme crafted specifically for app developers like you. The free app presentation template includes key features such as hero, features, FAQ, stats, and testimonial sections.",
 };
 
 export default function RootLayout({
@@ -24,13 +24,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <Layout>{children}</Layout>
-      <link
+        <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </body>
     </html>
   );
