@@ -85,7 +85,7 @@ export function Footer() {
               Material Tailwind
             </a>{" "}
             by{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
+            <a href="https://www.creative-tim.com" target="_blank">
               Creative Tim
             </a>
             .
