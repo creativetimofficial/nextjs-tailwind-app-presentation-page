@@ -11,7 +11,14 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
-            <Typography variant="h5" color="white" className="mb-4">
+            <Typography
+              as="a"
+              href="https://www.material-tailwind.com"
+              target="_blank"
+              variant="h5"
+              color="white"
+              className="mb-4"
+            >
               Material Tailwind
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
@@ -46,7 +53,8 @@ export function Footer() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-apple.png"                  className="-mt-0.5 mr-2 h-6 w-6"
+                  src="/logos/logo-apple.png"
+                  className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 />
                 App Store
@@ -72,7 +80,15 @@ export function Footer() {
             color="white"
             className="text-center font-normal opacity-75"
           >
-            &copy; {CURRENT_YEAR} Creative Tim™. All Rights Reserved.
+            &copy; {CURRENT_YEAR} Made with{" "}
+            <a href="https://www.material-tailwind.com" target="_blank">
+              Material Tailwind
+            </a>{" "}
+            by{" "}
+            <a href="https://www.material-tailwind.com" target="_blank">
+              Creative Tim
+            </a>
+            .
           </Typography>
 
           <div className="flex gap-2">
